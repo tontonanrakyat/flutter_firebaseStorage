@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>630852552783-31smfdnd3f7lvolp6p35b0p6erg3128e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.630852552783-31smfdnd3f7lvolp6p35b0p6erg3128e</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>630852552783-gps390kdh05ct8djulmccapjkr6t0d0h.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZKFdStUScPUleVVguS7ovsgLNLzBWjAA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>630852552783</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tontonanrakyat.risetflutter.ios</string>
+	<key>PROJECT_ID</key>
+	<string>riset-flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>riset-flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:630852552783:ios:611d3bff92a13135fdc23a</string>
+	<key>DATABASE_URL</key>
+	<string>https://riset-flutter.firebaseio.com</string>
+</dict>
+</plist>

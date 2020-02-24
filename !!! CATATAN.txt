@@ -1,0 +1,43 @@
+FINGERPRINT SHA1
+
+C:\Program Files\Android\Android Studio\jre\bin>
+keytool -list -v -keystore "C:\Users\Admin TOKECANG\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+
+A0:9B:88:EB:FF:E7:0A:6A:C2:E4:6E:9F:3F:6A:C8:30:16:09:2B:99
+
+
+
+
+
+
+FIREBASE STORAGE RULES
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+
+
+subprojects {
+    project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'com.android.support'
+                 && !details.requested.name.contains('multidex') ) {
+            details.useVersion "26.1.0"
+        }
+    }
+}
+
+  image_picker: ^0.5.0+3
+  font_awesome_flutter: ^8.5.0
+  cached_network_image: ^1.1.1
+  flutter_cache_manager: ^1.1.1
+
+
+  path_provider: ^1.3.0
+  network_to_file_image: ^2.0.7
